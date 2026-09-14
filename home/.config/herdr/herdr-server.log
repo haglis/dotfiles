@@ -200,3 +200,393 @@
 2026-08-10T16:45:12.423421Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
 2026-08-10T16:45:17.458994Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
 2026-08-10T16:49:42.466641Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-11T17:17:07.134922Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=2048 target=8192
+2026-08-11T17:17:07.136006Z  INFO herdr::api::server: api server listening path=/Users/jianhual/.config/herdr/herdr.sock
+2026-08-11T17:17:07.140242Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-11T17:17:07.145132Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=42904
+2026-08-11T17:17:07.145958Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-08-11T17:17:07.146126Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-11T17:17:07.172419Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T17:17:07.177290Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/Users/jianhual
+2026-08-11T17:17:07.177608Z  INFO herdr::server::headless: client protocol socket listening path=/Users/jianhual/.config/herdr/herdr-client.sock
+2026-08-11T17:17:07.177740Z  INFO herdr::server::headless: herdr server started api_socket=/Users/jianhual/.config/herdr/herdr.sock client_socket=/Users/jianhual/.config/herdr/herdr-client.sock
+2026-08-11T17:17:07.178327Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=42903
+2026-08-11T17:17:07.180513Z  INFO herdr::server::headless: client connected client_id=2 cols=214 rows=66 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-11T17:17:13.738356Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=65 cols=188 scrollback_limit_bytes=10000000
+2026-08-11T17:17:13.745944Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=43169
+2026-08-11T17:17:13.746297Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:17:18.751402Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:17:23.604235Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:17:27.603852Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:17:32.609163Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:17:34.328876Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:17:37.978011Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Omp) process=omp pgid=Some(43233)
+2026-08-11T17:17:38.344261Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Omp) process=omp pgid=Some(43233)
+2026-08-11T17:17:43.240378Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:18:18.791510Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:18:23.794842Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:18:51.703610Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:18:56.710739Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:18:58.286701Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:19:02.529155Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=65 cols=94 scrollback_limit_bytes=10000000
+2026-08-11T17:19:02.536395Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=43360
+2026-08-11T17:19:02.536702Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:19:07.540137Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:19:28.778364Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:19:32.619403Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:19:37.623091Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:19:49.131807Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:19:54.140212Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:19:57.382432Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:20:02.388160Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:21:01.577540Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:21:02.385758Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-11T17:21:06.582009Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:21:07.969144Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:21:12.973962Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:22:06.280633Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:22:11.286886Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:22:11.590647Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-11T17:22:40.407464Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:22:45.414757Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:22:57.039183Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:23:02.049722Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:24:15.131272Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:24:20.140661Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:25:07.657845Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:25:12.660428Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:25:19.062185Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T17:28:27.427489Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:28:28.184929Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-11T17:28:32.437804Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:29:00.489020Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:29:05.494673Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:30:10.205430Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:30:10.428173Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T17:30:15.219111Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:32:10.296731Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:32:15.304249Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:32:31.154985Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:32:36.164859Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:34:48.999109Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T17:35:37.611088Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:35:42.622777Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:36:10.169318Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:36:15.180054Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:37:36.634051Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:37:41.641278Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:38:59.830288Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:39:04.837466Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:40:09.353996Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:40:14.368172Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:41:17.707879Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:41:22.716210Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:43:18.353641Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:43:23.358652Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:43:57.325312Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:44:02.333467Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:44:34.616229Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:44:35.033350Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-11T17:44:39.628853Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:45:28.304651Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:45:33.312104Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:46:45.403542Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:46:50.412096Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:47:00.866263Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-11T17:47:04.012783Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Omp) agent=None pgid=Some(42904)
+2026-08-11T17:47:07.178307Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T17:47:07.553647Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Codex) process=codex pgid=Some(44226)
+2026-08-11T17:47:08.719751Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:48:31.926476Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:48:32.033202Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:48:37.041943Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:48:54.029072Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:48:59.037789Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:49:10.341297Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T17:49:11.437295Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:49:16.454421Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:49:34.923601Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:49:38.466416Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:49:43.482949Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:52:14.802602Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:52:19.815354Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:53:10.547832Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:53:15.560310Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:53:27.269297Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:53:32.279710Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:54:34.723242Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:54:39.739164Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:54:42.423056Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:54:44.498188Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:54:49.514849Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:56:23.743582Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:56:28.753269Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:56:32.749206Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:56:37.766092Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:56:42.893224Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T17:57:50.296777Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:57:55.306256Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:57:55.650494Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:58:00.656524Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T17:58:11.630429Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T17:58:16.646498Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:00:11.619106Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:00:16.627721Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:00:52.021488Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:00:57.028198Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:02:28.728661Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:02:33.737132Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:02:39.190972Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:02:44.196689Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:03:21.890428Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:03:26.896934Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:05:47.235818Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:05:52.248939Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:06:32.640505Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:06:37.648654Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:07:29.764654Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:07:34.771911Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:09:05.489415Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T18:17:07.187002Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T18:17:35.419998Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:17:40.429900Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:17:44.928435Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:17:49.939218Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:25:26.781902Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T18:34:48.817949Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:34:53.844970Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:36:04.284284Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:36:09.301921Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:36:24.459193Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:36:29.472157Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:36:33.967349Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:36:38.985185Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:36:57.762604Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:37:02.775417Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:38:45.607654Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:38:50.615480Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:40:25.129062Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:40:30.158104Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:43:28.212684Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:43:33.228235Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:44:10.907611Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:44:15.926449Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:44:56.253692Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:45:01.268479Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:47:07.206352Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T18:47:15.374625Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:47:20.395189Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:48:21.337865Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T18:56:19.978177Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:56:25.003807Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T18:58:54.652581Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T18:58:59.677822Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T19:08:15.563279Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T19:08:20.579266Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T19:08:30.264859Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T19:48:23.941797Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T19:57:15.333017Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T19:57:20.363203Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T19:58:01.694328Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T19:58:06.710612Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T19:58:13.519546Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T19:58:18.543117Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T19:58:36.778380Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T19:58:41.797483Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T20:15:08.039960Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T20:15:13.064109Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T20:26:38.372010Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T20:28:36.828491Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T20:28:40.593205Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T20:28:45.624305Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T20:35:45.700659Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T20:42:34.055025Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T20:42:39.075345Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T20:50:54.052872Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T20:50:59.084063Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T20:56:38.392117Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T20:56:50.533502Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T20:56:55.553095Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T20:57:15.496311Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T20:57:20.527180Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T20:58:37.724008Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T20:58:43.857388Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T21:01:21.478085Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T21:09:28.152745Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:09:33.172739Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:16:12.758587Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:16:17.789114Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:22:51.598191Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:22:55.751659Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:22:56.193089Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:23:01.216647Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:23:34.560022Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:23:35.093471Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:23:40.110309Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:26:38.402299Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T21:27:07.652415Z  WARN herdr::detect::manifest_update: agent detection manifest update failed for agent agent="agy" error=fetch failed: failed to fetch https://herdr.dev/agent-detection/antigravity.toml
+2026-08-11T21:31:27.457837Z  INFO herdr::server::headless: client resize client_id=2 cols=80 rows=24 cell_width_px=0 cell_height_px=0
+2026-08-11T21:31:29.424924Z  INFO herdr::server::headless: client resize client_id=2 cols=80 rows=24 cell_width_px=0 cell_height_px=0
+2026-08-11T21:31:29.530119Z  INFO herdr::server::headless: client resize client_id=2 cols=80 rows=24 cell_width_px=0 cell_height_px=0
+2026-08-11T21:31:29.631918Z  INFO herdr::server::headless: client resize client_id=2 cols=80 rows=24 cell_width_px=0 cell_height_px=0
+2026-08-11T21:31:32.015248Z  INFO herdr::server::headless: client resize client_id=2 cols=546 rows=113 cell_width_px=0 cell_height_px=0
+2026-08-11T21:31:33.846398Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:31:35.526175Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:31:40.545154Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:31:48.476852Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:31:53.493523Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:31:59.676378Z  INFO herdr::server::headless: client resize client_id=2 cols=478 rows=99 cell_width_px=0 cell_height_px=0
+2026-08-11T21:32:01.550691Z  INFO herdr::server::headless: client resize client_id=2 cols=424 rows=93 cell_width_px=0 cell_height_px=0
+2026-08-11T21:35:37.944519Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:35:41.279009Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:35:46.305717Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:39:27.026886Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:39:32.044075Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:39:40.760804Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:39:40.983526Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T21:39:45.785126Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:39:49.850740Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T21:46:32.322009Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:46:35.089698Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:46:40.120871Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:46:40.690204Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:46:45.720290Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:48:21.565437Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T21:55:01.007531Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T21:55:45.849304Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T21:56:36.564556Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:56:38.280741Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T21:56:41.581320Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:57:12.404260Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:57:17.424641Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T21:59:23.276756Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T21:59:45.996011Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:59:50.230531Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T21:59:53.862403Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T21:59:55.253179Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T21:59:55.253798Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:00:59.234426Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-11T22:04:11.583216Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:04:16.599064Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:04:27.433832Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:04:32.463047Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:04:37.350281Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:04:40.049814Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:04:45.066508Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:05:05.336777Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:05:10.365011Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:05:12.869756Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:05:14.187800Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:05:15.354568Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:05:20.379874Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:08:02.736184Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:08:07.749937Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:09:05.543357Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:09:10.571398Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:09:34.393822Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:09:37.496406Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:09:42.523006Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:12:40.069644Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T22:18:56.947187Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:19:01.960584Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:19:04.148757Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:19:09.167050Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:21:48.548467Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:21:53.566116Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:22:41.805627Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:22:46.840031Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:23:48.750648Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-08-11T22:25:45.835839Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:25:50.437044Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:25:55.460009Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:26:38.328435Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T22:27:16.910722Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:27:21.393905Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:27:26.423668Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:27:47.197637Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:27:52.219612Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:28:18.170200Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:28:23.202743Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:28:49.631790Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T22:31:30.226077Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T22:32:41.890835Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:32:46.922350Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:33:24.378411Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:33:24.572546Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-11T22:33:28.444797Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:33:33.474290Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:33:42.547652Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:33:47.578206Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:33:54.415697Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:33:54.880668Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:33:59.905801Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:37:13.092633Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:37:16.112220Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:37:21.147249Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:38:07.310850Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:38:12.332523Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:38:21.212394Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:38:26.240423Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:41:45.352900Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:41:50.376757Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:42:35.223014Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:42:40.258881Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:47:42.072453Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:47:47.096164Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:48:07.579324Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:48:12.609570Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:51:07.978622Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:51:13.004325Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:52:41.906677Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:52:46.943535Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:56:07.644805Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:56:10.728740Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T22:56:15.756874Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T22:56:38.374113Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T23:02:34.360577Z  INFO herdr::server::headless: client resize client_id=2 cols=175 rows=54 cell_width_px=0 cell_height_px=0
+2026-08-11T23:03:29.056813Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T23:03:34.079910Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T23:26:38.417528Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-11T23:31:03.429310Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T23:31:08.441069Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T23:36:11.481873Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-11T23:36:16.507070Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-11T23:36:47.605064Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-12T04:23:32.213094Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-12T13:51:47.964730Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-12T13:51:52.182713Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-12T13:51:57.196308Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-12T13:53:17.978920Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-12T13:53:34.043113Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-12T13:54:20.504439Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-12T13:54:25.526077Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-12T13:54:38.625243Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-12T13:54:43.652023Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-12T13:55:12.370480Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-12T13:55:14.848175Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 130, signal: None }"
+2026-08-12T13:55:14.848533Z  INFO herdr::pane: pane session terminated pane=3 pid=43360 signal=Hangup
+2026-08-12T13:55:15.918269Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-08-12T13:55:15.918674Z  INFO herdr::pane: pane session terminated pane=2 pid=43169 signal=Hangup
+2026-08-12T13:55:19.778816Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Codex) agent=None pgid=Some(42904)
+2026-08-12T13:55:22.582112Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-08-12T13:55:22.582532Z  INFO herdr::pane: pane session terminated pane=1 pid=42904 signal=Hangup
+2026-08-12T13:55:22.583079Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=53 cols=149 scrollback_limit_bytes=10000000
+2026-08-12T13:55:22.587882Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=50887
+2026-08-12T13:55:22.588250Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w8" pane_id=4
+2026-08-12T13:55:22.588268Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-08-12T13:55:22.588298Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-12T13:55:24.079467Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-08-12T13:55:24.079789Z  INFO herdr::pane: pane session terminated pane=4 pid=50887 signal=Hangup
+2026-08-12T13:55:24.080040Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=53 cols=149 scrollback_limit_bytes=10000000
+2026-08-12T13:55:24.085444Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=50948
+2026-08-12T13:55:24.085717Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w9" pane_id=5
+2026-08-12T13:55:24.085742Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w9"
+2026-08-12T13:55:24.085772Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-08-12T13:55:29.099676Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-12T13:55:33.406710Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-12T13:55:33.460727Z  INFO herdr::server::headless: completing server shutdown
+2026-08-12T13:55:33.517028Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/jianhual/.config/herdr/session.json workspaces=1
+2026-08-12T13:55:33.517048Z  INFO herdr::server::headless: headless server exiting
+2026-08-12T13:55:33.518133Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 1, signal: None }"
+2026-08-12T13:55:33.542450Z  INFO herdr::pane: pane session terminated pane=5 pid=50948 signal=Hangup
+2026-08-12T13:55:33.543276Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=42903

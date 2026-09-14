@@ -47,7 +47,7 @@ in
     '';
     initExtra = ''
       bindkey '^f' autosuggest-accept
-      eval $(dircolors -b)
+      eval $(gdircolors -b)
       alias ls='ls --color=auto'
     '';
     shellAliases = {
