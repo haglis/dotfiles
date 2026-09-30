@@ -16,6 +16,8 @@ in
     jq       # json on the command line
     lazygit
     neovim
+    # Work around Apple libffi crashes on macOS 27 (nixpkgs#541367).
+    (python314.override { libffi = pkgs.libffiReal; })
     # the font everything renders in
     nerd-fonts.hack
   ];
