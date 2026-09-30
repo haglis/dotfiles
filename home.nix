@@ -47,8 +47,8 @@ in
     '';
     initExtra = ''
       bindkey '^f' autosuggest-accept
-      eval $(gdircolors -b)
-      alias ls='ls --color=auto'
+      eval "$(${pkgs.coreutils}/bin/dircolors -b)"
+      alias ls='${pkgs.coreutils}/bin/ls --color=auto'
     '';
     shellAliases = {
       ".." = "cd ..";

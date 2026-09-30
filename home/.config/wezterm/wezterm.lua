@@ -12,8 +12,8 @@ config.window_decorations = "RESIZE | TITLE"
 
 config.inactive_pane_hsb = {
   hue = 1.0,
-  saturation = 0.5,
-  brightness = 0.1,
+  saturation = 0.2,
+  brightness = 0.4,
 }
 
 -- Dim unfocused windows so the focused one is obvious at a glance.
