@@ -2,6 +2,11 @@
 
 let
   dotfiles = "${config.home.homeDirectory}/.dotfiles";
+  python = pkgs.python314.override {
+    self = python;
+    libffi = pkgs.libffiReal;
+  };
+
 in
 
 {
@@ -17,7 +22,30 @@ in
     lazygit
     neovim
     # Work around Apple libffi crashes on macOS 27 (nixpkgs#541367).
-    (python314.override { libffi = pkgs.libffiReal; })
+    ((pkgs.python314.withPackages (ps: [
+      ps.pip
+      ps.torch
+      ps.matplotlib
+      ps.numpy
+      #ps.pandas
+      #ps.scipy
+      #ps.scikit-learn
+      ps.transformers
+      ps.datasets
+      ps.tiktoken
+      #ps.tqdm
+      #ps.wandb
+      #ps.jupyterlab
+      #ps.ipykernel
+      ps.pytest
+    ])).override {
+      inherit python;
+      # Reuse packages for the same Python version, replacing the interpreter
+      # in the module closure too so its standard library uses the fixed libffi.
+      requiredPythonModules = packages:
+        map (p: if p == pkgs.python314 then python else p)
+          (pkgs.python314.pkgs.requiredPythonModules packages);
+    })
     # the font everything renders in
     nerd-fonts.hack
   ];
