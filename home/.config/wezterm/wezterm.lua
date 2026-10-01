@@ -18,7 +18,7 @@ config.inactive_pane_hsb = {
 
 -- Dim unfocused windows so the focused one is obvious at a glance.
 local UNFOCUSED_FOREGROUND_TEXT_HSB = { hue = 1.0, saturation = 0.25, brightness = 0.15 }
-local UNFOCUSED_WINDOW_BACKGROUND_OPACITY = 0.62
+local UNFOCUSED_WINDOW_BACKGROUND_OPACITY = 1.00
 
 -- get_config_overrides() hands back a copy, so the current value is never the
 -- same table we last stored; compare the fields instead of the identity.
