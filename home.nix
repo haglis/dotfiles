@@ -21,6 +21,12 @@ in
     jq       # json on the command line
     lazygit
     neovim
+    tmux
+    # Rust toolchain managed by Nix
+    rustc
+    cargo
+    rustfmt
+    clippy
     # Work around Apple libffi crashes on macOS 27 (nixpkgs#541367).
     ((pkgs.python314.withPackages (ps: [
       ps.pip

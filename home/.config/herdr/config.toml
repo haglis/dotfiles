@@ -12,3 +12,6 @@ close_tab = "prefix+ampersand"
 workspace_picker = "prefix+w"
 goto             = "prefix+g"
 copy_mode  = "prefix+y"  # herdr's copy-mode
+
+[ui]
+agent_panel_sort = "priority"
