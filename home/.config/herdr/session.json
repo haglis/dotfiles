@@ -2,55 +2,84 @@
   "version": 3,
   "workspaces": [
     {
-      "id": "w9",
+      "id": "wD",
       "custom_name": null,
       "identity_cwd": "/Users/jianhual",
       "public_pane_numbers": {
-        "6": 4,
-        "5": 3,
-        "1": 1
+        "5": 5,
+        "6": 6,
+        "4": 4,
+        "2": 1,
+        "1": 2
       },
-      "next_public_pane_number": 5,
+      "next_public_pane_number": 7,
       "public_tab_numbers": [
         1,
-        3,
-        4
+        2
       ],
-      "next_public_tab_number": 5,
+      "next_public_tab_number": 3,
       "tabs": [
         {
           "custom_name": null,
           "layout": {
-            "Pane": 1
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 1
+                  },
+                  "second": {
+                    "Pane": 5
+                  }
+                }
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.5,
+                  "first": {
+                    "Pane": 2
+                  },
+                  "second": {
+                    "Pane": 4
+                  }
+                }
+              }
+            }
           },
           "panes": {
+            "2": {
+              "cwd": "/Users/jianhual"
+            },
             "1": {
               "cwd": "/Users/jianhual",
               "agent_session": {
-                "source": "herdr:codex",
-                "agent": "codex",
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/Users/jianhual/.omp/agent/sessions/--private-tmp--/2026-11-12T14-06-57-280Z_01a1d015-4500-77a1-ae9f-b5e35dbe139f.jsonl"
+              }
+            },
+            "5": {
+              "cwd": "/Users/jianhual/github/dotfiles"
+            },
+            "4": {
+              "cwd": "/Users/jianhual",
+              "agent_session": {
+                "source": "herdr:hermes",
+                "agent": "hermes",
                 "kind": "id",
-                "value": "01a11154-2bcc-73d2-8e26-48929aad7490"
+                "value": "local-70ec10661634e84434228cfc44c345f9b9df7cafcf6d256a7dc716bcff047615"
               }
             }
           },
           "zoomed": false,
-          "focused": 1,
-          "root_pane": 1
-        },
-        {
-          "custom_name": null,
-          "layout": {
-            "Pane": 5
-          },
-          "panes": {
-            "5": {
-              "cwd": "/Users/jianhual/wordcraft"
-            }
-          },
-          "zoomed": false,
           "focused": 5,
-          "root_pane": 5
+          "root_pane": 2
         },
         {
           "custom_name": null,
@@ -59,7 +88,7 @@
           },
           "panes": {
             "6": {
-              "cwd": "/Users/jianhual/github/dotfiles"
+              "cwd": "/private/tmp"
             }
           },
           "zoomed": false,
@@ -67,7 +96,7 @@
           "root_pane": 6
         }
       ],
-      "active_tab": 2
+      "active_tab": 0
     }
   ],
   "active": 0,

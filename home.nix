@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, oh-my-pi, ... }:
 
 let
   dotfiles = "${config.home.homeDirectory}/.dotfiles";
@@ -22,7 +22,11 @@ in
     lazygit
     neovim
     tmux
+    uv       # Python package and project manager
     # Rust toolchain managed by Nix
+    nodejs
+    pi-coding-agent
+    oh-my-pi.packages.${pkgs.stdenv.hostPlatform.system}.default
     rustc
     cargo
     rustfmt
@@ -94,6 +98,7 @@ in
       m = "git switch main";
       cc = "claude --dangerously-skip-permissions";
       co = "codex --full-auto";
+      vim = "nvim";
     };
   };
 

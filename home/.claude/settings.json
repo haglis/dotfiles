@@ -1,5 +1,4 @@
 {
-  "theme": "dark",
   "hooks": {
     "SessionStart": [
       {
@@ -43,5 +42,6 @@
         ]
       }
     ]
-  }
+  },
+  "theme": "dark"
 }

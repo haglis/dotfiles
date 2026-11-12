@@ -15,3 +15,8 @@ copy_mode  = "prefix+y"  # herdr's copy-mode
 
 [ui]
 agent_panel_sort = "priority"
+
+show_agent_labels_on_pane_borders = true
+[theme]
+name = "solarized"
+auto_switch = false

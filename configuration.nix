@@ -36,10 +36,12 @@
     onActivation.extraFlags = [ "--force" ];
     brews = [
       "herdr"
+      "hermes-agent"
     ];
     casks = [
       "wezterm"
       "claude-code"
+      "ghostty"
     ];
   };
 }
