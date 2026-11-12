@@ -12,8 +12,6 @@
 
     home-manager.url = "github:nix-community/home-manager/release-26.05";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
-
-    oh-my-pi.url = "github:can1357/oh-my-pi";
   };
 
   outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, home-manager, ... }: {
@@ -25,7 +23,6 @@
 	{
 	  home-manager.useGlobalPkgs = true;
 	  home-manager.useUserPackages = true;
-	  home-manager.extraSpecialArgs = { inherit (inputs) oh-my-pi; };
 	  home-manager.users.jianhual = import ./home.nix;
 	}
       ];

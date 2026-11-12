@@ -1,4 +1,4 @@
-{ config, pkgs, oh-my-pi, ... }:
+{ config, pkgs, ... }:
 
 let
   dotfiles = "${config.home.homeDirectory}/.dotfiles";
@@ -26,11 +26,10 @@ in
     # Rust toolchain managed by Nix
     nodejs
     pi-coding-agent
-    oh-my-pi.packages.${pkgs.stdenv.hostPlatform.system}.default
-    rustc
-    cargo
-    rustfmt
-    clippy
+    #rustc
+    #cargo
+    #rustfmt
+    #clippy
     # Work around Apple libffi crashes on macOS 27 (nixpkgs#541367).
     ((pkgs.python314.withPackages (ps: [
       ps.pip
