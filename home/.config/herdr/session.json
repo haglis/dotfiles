@@ -6,13 +6,13 @@
       "custom_name": null,
       "identity_cwd": "/Users/jianhual",
       "public_pane_numbers": {
-        "1": 2,
-        "6": 6,
         "2": 1,
         "5": 5,
-        "4": 4
+        "6": 6,
+        "4": 4,
+        "1": 2
       },
-      "next_public_pane_number": 7,
+      "next_public_pane_number": 9,
       "public_tab_numbers": [
         1,
         2
@@ -55,15 +55,6 @@
             "5": {
               "cwd": "/Users/jianhual/github/dotfiles"
             },
-            "1": {
-              "cwd": "/Users/jianhual",
-              "agent_session": {
-                "source": "herdr:omp",
-                "agent": "omp",
-                "kind": "path",
-                "value": "/Users/jianhual/.omp/agent/sessions/--private-tmp--/2026-11-12T14-06-57-280Z_01a1d015-4500-77a1-ae9f-b5e35dbe139f.jsonl"
-              }
-            },
             "4": {
               "cwd": "/Users/jianhual",
               "agent_session": {
@@ -75,6 +66,15 @@
             },
             "2": {
               "cwd": "/Users/jianhual"
+            },
+            "1": {
+              "cwd": "/Users/jianhual",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/Users/jianhual/.omp/agent/sessions/--private-tmp--/2026-11-12T14-06-57-280Z_01a1d015-4500-77a1-ae9f-b5e35dbe139f.jsonl"
+              }
             }
           },
           "zoomed": false,
