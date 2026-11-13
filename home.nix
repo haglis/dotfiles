@@ -1,11 +1,10 @@
-{ config, pkgs, ... }:
+{ config, pkgs, pythonPkgs, ... }:
 
 let
   dotfiles = "${config.home.homeDirectory}/.dotfiles";
-  python = pkgs.python314.override {
-    self = python;
-    libffi = pkgs.libffiReal;
-  };
+  # Python 3.15's package closure still has compatibility failures in Nixpkgs
+  # (including dill and parso). Keep the current 3.14 patch release for now.
+  python = pythonPkgs.python314;
 
 in
 
@@ -30,8 +29,7 @@ in
     #cargo
     #rustfmt
     #clippy
-    # Work around Apple libffi crashes on macOS 27 (nixpkgs#541367).
-    ((pkgs.python314.withPackages (ps: [
+    (python.withPackages (ps: [
       ps.pip
       ps.torch
       ps.matplotlib
@@ -47,14 +45,7 @@ in
       #ps.jupyterlab
       #ps.ipykernel
       ps.pytest
-    ])).override {
-      inherit python;
-      # Reuse packages for the same Python version, replacing the interpreter
-      # in the module closure too so its standard library uses the fixed libffi.
-      requiredPythonModules = packages:
-        map (p: if p == pkgs.python314 then python else p)
-          (pkgs.python314.pkgs.requiredPythonModules packages);
-    })
+    ]))
     # the font everything renders in
     nerd-fonts.hack
   ];
